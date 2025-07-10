@@ -1,0 +1,14 @@
+The /computer-asset-management/computer-asset-management/public/assets/vendor/bootstrap directory is intended to contain the Bootstrap framework files. Since these files are typically large and consist of multiple components (CSS, JS, fonts, etc.), I will provide a brief overview of what files you would typically include in this directory, rather than generating the actual content of each file.
+
+You would typically include the following files in the Bootstrap directory:
+
+1. **bootstrap.min.css** - The minified CSS file for Bootstrap.
+2. **bootstrap.css** - The unminified CSS file for Bootstrap.
+3. **bootstrap.bundle.min.js** - The minified JavaScript file that includes Bootstrap's JavaScript components and Popper.js.
+4. **bootstrap.bundle.js** - The unminified JavaScript file that includes Bootstrap's JavaScript components and Popper.js.
+5. **bootstrap.min.css.map** - The source map for the minified CSS file.
+6. **bootstrap.bundle.min.js.map** - The source map for the minified JavaScript file.
+
+To set up the Bootstrap files, you can download the latest version of Bootstrap from the official Bootstrap website and extract the contents into the /public/assets/vendor/bootstrap directory.
+
+If you need specific files or a specific version of Bootstrap, please let me know!

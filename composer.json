@@ -1,0 +1,32 @@
+{
+    "name": "kohoku/computer-asset-management",
+
+    "description": "A project for managing computer assets, including tracking hardware specifications, invoices, and warranties.",
+    "type": "project",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "monolog/monolog": "^2.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "vlucas/phpdotenv": "^5.0",
+        "twig/twig": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "scripts": {
+        "post-autoload-dump": []
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist"
+    }
+}
